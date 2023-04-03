@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo1.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Bastão PCD</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="logo1.png" href="index.html" width="19%" height="20%" ></div>
+        <div class="menu-btn">
+            <span onclick="menuShow()" class="material-symbols-outlined">menu</span>
+        </div>
+        <ul>
+            <Li> <a href="index.html" class="active"> Home</a></Li>
+            <Li> <a href="index2.php" > Contato</a></Li>
+        </ul>
+    </nav>
+     <!--Slide-->
+     <center>
+    <section class="cont1">
+        <h2>Bastão Deficiente Visual</h2>
+        <br>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="img4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img5.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img6.jpg" alt="">
+                </div>
+                <div class="navigation_auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+</center>
+<center>
+    <section class="cont2">
+        <div class="oqueContent">
+            
+            <div class="oqueBox">
+                <div class="oqueImg">
+                    <img src="img7.png">
+                </div>
+                <div class="oqueTxt">
+                <h2>O Bastão</h2>
+                <p >Também conhecida como apoio e auxílio, a bengala foi projetada para oferecer suporte físico, estabilidade e locomoção de forma independente para pessoas com deficiência visual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</center>
+<center>
+    <section class="cont3">
+        <h2 class="tipo">Tipos de Bastão</h2>
+        <div class="container">    
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Branca</h3>
+                    <p>O Bastão Branco é para pessoas cegas, que apresentam ausência total da visão Não é possível identificar obstáculos, movimentos, ou iluminação no campo de visão.</p>
+                    <a href="https://ictusvirtual.com.br/2021/02/12/cor-da-bengala-ajuda-a-identificar-o-grau-de-deficiencia-visual/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3><span class="verde">Verde</span></h3>
+                    <p>O Bastão Verde é para pessoas com baixa visão. Quem possui visão parcial consegue identificar a luz, capazes de enxergar os dedos a curta distância, vultos, e podem identificar pessoas e objetos.</p>
+                    <a href="https://ictusvirtual.com.br/2021/02/12/cor-da-bengala-ajuda-a-identificar-o-grau-de-deficiencia-visual/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3><span class="vb">Vermelha</span> e Branca</h3>
+                    <p>O Bastão Vermelho e Branco é utilizado para pessoas Cegas e Surdas especificamente.</p>
+                    <a href="https://ictusvirtual.com.br/2021/02/12/cor-da-bengala-ajuda-a-identificar-o-grau-de-deficiencia-visual/">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+        </script>
+    </section>
+</center>
+    <footer>
+        <div class="boxs">
+            <h2>Inicio</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+        <div class="boxs">
+            <h2>Aluno</h2>
+            <ul>
+                <li><a href="#">João Gabriel Zampieri Rossi</a></li>
+                <li><a href="#">Numeroº: 16</a></li>
+            </ul>
+        </div>
+        <div class="boxs">
+            <h2>Contato</h2>
+            <ul>
+                <li><a href="#">Email: rossi.joao.adetec@gmail.com</a></li>
+                <li><a href="#">Cel: +55 (011) 99305-5852</a></li>
+            </ul>
+        </div>
+    </footer>
+    <center>
+        <div class="footer">
+            <img src="logo1.png" alt="">
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
